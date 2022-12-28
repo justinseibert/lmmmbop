@@ -38,4 +38,6 @@ if __name__ == '__main__':
 
     #  p = getattr(patterns,sys.argv[1])
     #  printPattern(p,int(sys.argv[2]),int(sys.argv[3]))
-    printPattern(patterns.p3,4,8)
+
+    # p4, p7, p8, p11, p12 are cool
+    printPattern(patterns.p12,3,4)
