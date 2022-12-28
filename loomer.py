@@ -36,8 +36,8 @@ if __name__ == '__main__':
             self.fal = ''
             self.end = ''
 
-    #  p = getattr(patterns,sys.argv[1])
-    #  printPattern(p,int(sys.argv[2]),int(sys.argv[3]))
+    p = getattr(patterns,sys.argv[1])
+    printPattern(p,int(sys.argv[2]),int(sys.argv[3]))
 
     # p4, p7, p8, p11, p12 are cool
-    printPattern(patterns.p12,3,4)
+    # printPattern(patterns.p12,3,4)
